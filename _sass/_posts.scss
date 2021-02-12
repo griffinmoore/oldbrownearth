@@ -6,6 +6,8 @@
 .page,
 .post {
   margin-bottom: 6em;
+  padding-top: 2rem;
+  border-top: 1px solid $border-color;
 
   li + li {
     margin-top: .25rem;
@@ -20,15 +22,14 @@
 }
 .page-title,
 .post-title {
-  margin-top: 0;
+  margin: 0;
 }
 
 // Meta data line below post title
 .post-date {
   display: block;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
   color: lighten($body-color, 40);
+  margin-bottom: 2rem;
 }
 
 
