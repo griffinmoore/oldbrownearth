@@ -4,6 +4,14 @@ layout: default
 
 <header>
   <a href="{{ site.baseurl }}/" title="Home">Index</a>
+  <nav>
+    {% if page.previous.url %}
+      <a class="nav-prev" href="{{page.previous.url}}">&larr;</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="nav-next" href="{{page.next.url}}">&rarr;</a>
+    {% endif %}
+  </nav>
 </header>
 
 <article class="post">
