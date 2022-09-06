@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Introduction
+number: 1
+category: other
 ---
 
-My name is Griffin Moore. I currently live in Brooklyn, New York and work remotely as a user-interface designer for a software company. I've created this blog to log different things I am reading and thinking about as I consider the next stage in my life. I don't expect any mass-appeal, but simply feel an urge to compile some of ideas I have come across over the years.
+My name is Griffin Moore. I currently live in Brooklyn, New York and work remotely as a user-interface designer for a software company. I've created this blog to log different things I am reading and thinking about as I consider a future stage in my life. I don't expect any mass-appeal, but simply feel an urge to compile some of the ideas I have come across over the years.
 
 In particular I hope to post findings on the subjects of designing shelter, decentralism and degrowth, and the pursuit of self-sufficiency. Living off-grid has been a personal interest of mine since my early 20s (now 31 years old). I've done a fair bit of reading on the subject, but living in New York City has prevented me from accruing any actual experience. So I am just a student and that is the tone I wish to communicate.
 

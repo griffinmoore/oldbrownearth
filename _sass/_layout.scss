@@ -3,19 +3,30 @@
 // Styles for managing the structural hierarchy of the site.
 
 .container {
-  max-width: 52rem;
+  max-width: 72rem;
   margin: 2rem 0;
   padding-left:  1rem;
   padding-right: 1rem;
 
   @media (min-width: $large-breakpoint) {
+    display: grid;
+    grid-template-columns: 6fr 16fr;
+    grid-template-areas: "sidebar main";
+    grid-column-gap: 2rem;
     padding-left:  2rem;
     padding-right: 2rem;
   }
 }
 
-header {
-  margin-bottom: 4rem;
+sidebar {
+  ul {
+    padding: 0;
+    margin: 0 0 2rem;
+
+    li {
+      list-style-type: none;
+    }
+  }
 }
 
 nav {

@@ -3,12 +3,18 @@ layout: default
 title: Home
 ---
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li class="post-title">
+{% for post in site.posts %}
+  <div class="post">
+    <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
-        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: "%Y-%m-%d" }}</time> {{ post.title }}
+        {{ post.number }}: {{ post.title }}
       </a>
-    </li>
-  {% endfor %}
-</ul>
+      <div class="post-body">
+        {{ post.content }}
+        <p class="post-date">
+          Published <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B %Y" }}</time>
+        </p>
+      </div>
+    </article>
+  </div>
+{% endfor %}

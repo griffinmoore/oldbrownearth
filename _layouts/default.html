@@ -7,6 +7,23 @@
 
     <div class="container content">
 
+      <sidebar>
+        <ul>
+          <li><a href="{{ site.baseurl }}/">Old Brown Earth</a></li>
+        </ul>
+        <ul>
+          {% assign categories = site.categories | sort %}
+          {% for category in categories %}
+            <li>
+              <a href="{{ site.baseurl }}/category/{{ category[0] }}">{{ category[0] | capitalize }} <span> ({{ category[1].size }}) </span></a>
+            </li>
+          {% endfor %}
+        </ul>
+        <ul>
+          <li><a class="muted" href="https://www.instagram.com/oldbrownearth/">Instagram</a></li>
+        </ul>
+      </sidebar>
+
       <main>
         {{ content }}
       </main>
