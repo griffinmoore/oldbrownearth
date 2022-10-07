@@ -10,7 +10,7 @@ I think I came across the [Passivhaus](https://en.wikipedia.org/wiki/Passive_hou
 
 Through a bit more research I encountered the notion of a "Pretty Good House," a term coined by [Michael Maines](https://www.greenbuildingadvisor.com/article/the-pretty-good-house) I believe, to describe a house still designed thoughtfully, but a bit less stringently than one following the Passivhaus model. Martin Holladay expanded upon this idea with his "Pretty Good House Manifesto." Holladay has written for Green Building Advisor since January 2009 under the title ["Musings of an Energy Nerd,"](https://www.greenbuildingadvisor.com/blog/musings) a blog which spawned a [book](https://www.tauntonstore.com/musings-of-an-energy-nerd) of the same name in 2017.
 
-The book is very detailed and offers practical assessments of various technologies and approaches one should consider when designing a home. I did a quick read-through, not diving too deep into the details, but pulled out some of the recommendations:
+The book is very detailed and offers practical assessments of various technologies and approaches one should consider when designing a modern technological home. I did a quick read-through, not diving too deep into the details, but pulled out some of the recommendations below.
 
 * Windows in hot climate– and west-facing windows in almost all climates– need glazing with solar heat gain coefficient (SHGC) of 0.30 or lower
 * In hot climate, east and west facing windows minimized
