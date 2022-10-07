@@ -27,14 +27,12 @@ sidebar {
       list-style-type: none;
     }
   }
-}
 
-nav {
-  float: right;
-}
-
-.nav-next {
-  margin-left: 1rem;
+  @media (min-width: $large-breakpoint) {
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+  }
 }
 
 footer {

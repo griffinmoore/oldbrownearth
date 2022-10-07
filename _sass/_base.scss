@@ -41,7 +41,7 @@ a {
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
-    color: lighten($body-color, 40);
+    color: lighten($body-color, 20);
     text-decoration: none;
   }
 
